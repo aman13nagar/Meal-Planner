@@ -1,0 +1,42 @@
+.header {
+    box-shadow: 0 4px 6px -6px #222;
+  }
+  
+  .custom-navbar {
+    background: linear-gradient(135deg, #263a6f , #3352a9 );
+    color: white;
+  }
+  
+  .navbar-brand-custom {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .nav-link-custom {
+    font-size: 1.1rem;
+    color: white !important;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-custom:hover {
+    color: #ff7e5f !important;
+  }
+  
+  .custom-button {
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #263a6f !important;
+    color: white !important;
+  }
+  
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  

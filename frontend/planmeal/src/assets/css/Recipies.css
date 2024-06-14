@@ -1,0 +1,27 @@
+/* Recipes Styles */
+.recipes-page {
+    padding: 20px 0;
+  }
+  
+  .recipe-card {
+    transition: transform 0.2s;
+    height:388px;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  .card-img-top{
+    width: auto;            /* Allow the image to retain its natural width */
+    height: auto;           /* Allow the image to retain its natural height */
+    max-width: 100%;        /* Ensure the image scales down properly within a container */
+    display: block;         /* Remove any inline spacing issues */
+    filter: none;           /* Ensure no filters are applied */
+    image-rendering: auto;  /* Default rendering */
+    /* For modern browsers to ensure no aliasing or smoothing effects */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+  }
+  

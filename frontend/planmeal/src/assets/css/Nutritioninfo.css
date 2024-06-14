@@ -1,0 +1,94 @@
+  .nutrition-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nutrition-image {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .nutrition-table {
+    margin-bottom: 20px;
+  }
+  
+  .nutrition-table thead {
+    background-color: #f8f9fa;
+    text-transform: uppercase;
+  }
+  
+  .nutrition-table tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  
+  .nutrition-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .nutrition-table th, .nutrition-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  
+  .nutrition-table th {
+    font-weight: bold;
+  }
+  
+  .nutrition-table td {
+    font-size: 14px;
+  }
+  
+  .nutrition-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .nutrition-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .nutrition-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .nutrition-card-body {
+    padding: 20px;
+  }
+  
+  .nutrition-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .nutrition-properties, .nutrition-flavonoids {
+    margin-top: 20px;
+  }
+  
+  .nutrition-flavonoids-table, .nutrition-properties-table {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .nutrition-card-body {
+      padding: 10px;
+    }
+  
+    .nutrition-card-title {
+      font-size: 20px;
+    }
+  
+    .nutrition-header {
+      font-size: 16px;
+    }
+  }
+  
+  

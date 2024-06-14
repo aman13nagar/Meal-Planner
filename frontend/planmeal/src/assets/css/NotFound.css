@@ -1,0 +1,28 @@
+/* assets/css/NotFound.css */
+.not-found-container {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .not-found-image {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-button {
+    font-size: 18px;
+  }
+  

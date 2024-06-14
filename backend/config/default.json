@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb://127.0.0.1:27017/travelBookingSystem",
+    "jwtSecret": "mySuperSecretKey1234567567",
+    "nutritionixApiKey":"4ea779f44fb67be91a7996958bcdb5ca",
+    "nutritionixAppId":"2d52b899"
+  }
+  

@@ -1,0 +1,116 @@
+ main{
+    width:100%;
+ }
+ .col-10{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+ }
+ .container {
+    max-width: 1200px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .card.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .container.dark-mode {
+    background-color: #121212;
+  }
+  
+  button.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .dark-mode .modal-content {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .modal-header,
+  .dark-mode .modal-body,
+  .dark-mode .modal-footer {
+    border-color: #444;
+  }
+  .table{
+    margin-left:1%;
+  }
+  .dark-mode .form-control {
+    background-color: #555;
+    color: #fff;
+    border-color: #666;
+  }
+  
+  .dark-mode .form-label {
+    color: #fff;
+  }
+  
+  .dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .pagination-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .pagination-scroll .page-item {
+    display: inline-block;
+  }
+
+  .dark-mode .table {
+    background-color: #333;
+    color: #fff; 
+  }
+
+  .dark-mode .table thead {
+    background-color: #555; 
+  }
+
+  .dark-mode .table tbody tr {
+    background-color: #333; 
+    color: #fff;
+  }
+
+  .dark-mode .pagination .page-link {
+    background-color: #333; 
+    color: #fff; 
+  }
+
+  .dark-mode .pagination .page-item.active .page-link {
+    background-color: #fff; 
+    color: #333; 
+  }
+
+  .gr-pg{
+    flex-direction: column;
+  }
+  

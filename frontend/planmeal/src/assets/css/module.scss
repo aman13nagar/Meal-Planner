@@ -1,0 +1,37 @@
+$primary-color: #4caf50;
+$secondary-color: #ff9800;
+$background-color: #f5f5f5;
+$text-color: #333;
+
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $primary-color;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  background-color: $secondary-color;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.button {
+  background-color: $primary-color;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}

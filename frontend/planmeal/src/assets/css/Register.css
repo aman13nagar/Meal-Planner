@@ -1,0 +1,30 @@
+/* src/assets/css/register.css */
+
+.register-container {
+    background-color: #f8f9fa;
+    padding: 2rem;
+  }
+  
+  .register-image-container {
+    height: 100%;
+    background: url('../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg') center center/cover no-repeat;
+  }
+  
+  .register-container .card {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .register-container .card-body {
+    padding: 2rem;
+  }
+  
+  .register-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .register-container .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

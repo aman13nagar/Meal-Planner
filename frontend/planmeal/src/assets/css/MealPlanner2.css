@@ -1,0 +1,42 @@
+/* src/components/MealPlanner.css */
+.meal-planner-page {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .meal-plan-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .meal-plan-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .meal-plan-card .card-text {
+    margin-top: 10px;
+  }
+  
+  .meal-plan-card .btn {
+    margin-top: 10px;
+  }
+  
+  .meal-plan-card .btn + .btn {
+    margin-left: 10px;
+  }
+  
+  .modal-header, .modal-body, .modal-footer {
+    background-color: #fff;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .addrecipebutton{
+    margin-top:1%;
+  }
+  

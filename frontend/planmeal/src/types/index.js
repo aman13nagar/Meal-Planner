@@ -1,0 +1,23 @@
+
+export const ADD_MEALPLAN = 'ADD_MEALPLAN';
+export const ADD_RECIPE = 'ADD_RECIPE';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const DELETE_MEALPLAN = 'DELETE_MEALPLAN';
+export const DELETE_RECIPE = 'DELETE_RECIPE';
+export const GET_MEALPLANS = 'GET_MEALPLANS';
+export const GET_RECIPES = 'GET_RECIPES';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGOUT = 'LOGOUT';
+export const MEALPLAN_ERROR = 'MEALPLAN_ERROR';
+export const RECIPE_ERROR = 'RECIPE_ERROR';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const SET_CURRENT = 'SET_CURRENT';
+export const UPDATE_MEALPLAN = 'UPDATE_MEALPLAN';
+export const UPDATE_RECIPE = 'UPDATE_RECIPE';
+export const USER_LOADED = 'USER_LOADED';
+export const STOP_LOADING='STOP_LOADING';
+export const CLEAR_RECIPES = 'CLEAR_RECIPES';

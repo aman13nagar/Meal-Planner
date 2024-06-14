@@ -1,0 +1,30 @@
+{
+    "name": "meal-planner-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "bcryptjs": "^2.4.3",
+        "config": "^3.3.11",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-validator": "^6.15.0",
+        "install": "^0.13.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.13.22",
+        "node": "^20.14.0",
+        "node-fetch": "^3.3.2",
+        "nodemailer": "^6.9.13",
+        "npm": "^10.8.1",
+        "winston": "^3.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
