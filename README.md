@@ -5,6 +5,8 @@ MealPlanner is a comprehensive solution designed to help users plan their meals 
 - **Backend**: Built with Node.js, Express, and MongoDB.
 - **Frontend**: Built with React and Bootstrap.
 
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/nuRx_XxbNP8/0.jpg)](https://www.youtube.com/watch?v=nuRx_XxbNP8)
 ## Features
 - User authentication and authorization
 - Meal planning and scheduling
