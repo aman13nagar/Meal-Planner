@@ -30,7 +30,7 @@
     "deploy": "gh-pages -b master -d build"
   },
   "homepage": "https://aman13nagar.github.io/planmeal",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://meal-planner-api-5cp7.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
