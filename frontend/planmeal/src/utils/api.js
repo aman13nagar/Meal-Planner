@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Set up an instance of Axios with the base URL of your backend
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: 'https://meal-planner-api-5cp7.onrender.com/api', 
 });
 
 // Add a request interceptor to include the token in headers
